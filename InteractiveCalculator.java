@@ -7,7 +7,7 @@ public class InteractiveCalculator {
         System.out.println("input a string in the form of 'STORE char', a proper mathamatical expression in order, or type 'QUIT' to quit the program");
         while (true) {
             String inp = inpStr.nextLine();
-            if (inpStr.equals("QUIT")) {
+            if (inp.equals("QUIT")) {
                 break;
             }
             if (inp.indexOf("STORE") == 0) {
